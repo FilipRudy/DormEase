@@ -24,6 +24,10 @@ $ npm install
 cd docker
 $ docker compose up -d
 ```
+* Run a pre-generated database migration
+```
+$ npm run migration:run
+```
 * Start the application by choosing preferred mode
 ```bash
 # development
